@@ -28,9 +28,7 @@ The next step is to choose a performance measure: <br>
 - or **F1-score** to **balance precision and recall**.<br><br>
 
 We will compute : <br>
-    - the F1 score
-
-$$F_1  = \frac{2}{\frac{1}{precision}+ \frac{1}{recall}} = 2 \times \frac{precision \times recall}{precision + recall} = \frac{TP}{TP +  \frac{FN + FP}{2}} $$
+    - the F1 score : $$F_1  = \frac{2}{\frac{1}{precision}+ \frac{1}{recall}} = 2 \times \frac{precision \times recall}{precision + recall} = \frac{TP}{TP +  \frac{FN + FP}{2}} $$
 
 
 st.latex(r'''

@@ -28,7 +28,7 @@ st.markdown(
     unsafe_allow_html=True
 )
 
-st.image("data/piechart_Personal_Loan.png", caption="Target (i.e Personal_Loan) imbalance")
+st.image("data/piechart_Personal_Loan.png", caption="Target (i.e Personal_Loan) imbalance", output_format='PNG')
 
 st.markdown(
 """

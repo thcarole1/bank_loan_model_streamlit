@@ -1,0 +1,113 @@
+.table {
+  border: 1px solid red;
+  color : #EDF0F5;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+th {
+  color : #F9D09F;
+  text-align: center;
+}
+
+td {
+  color : #EDF0F5;
+  text-align: center;
+}
+
+caption {
+      color :#EDF0F5;
+      text-align: center;
+      margin-left: auto;
+      margin-right: auto;
+}
+.stApp {
+  background-color: #EDF0F5;
+}
+
+.title {
+  text-align: center;
+  color : #F9D09F;
+}
+.subtitle {
+  text-align: center;
+  color : #F9D09F;
+  font-size: 1.4em;
+}
+.first-sentence {
+  text-align: left;
+  margin-top: 20px;
+  font-size: 1.2em;
+}
+
+div[data-testid="stTextInput"] > label {
+  color : #EDF0F5;
+  font-size: 1.2em;
+}
+
+.custom-spinner {
+  color: orange;  /* Change to your desired color */
+  font-size: 20px;  /* Optional: adjust font size */
+}
+
+.subtitle_2 {
+  text-align: left;
+  color : #F9D09F;
+  font-size
+  : 0.8em;
+}
+
+.subtitle_0 {
+  text-align: center;
+  color : #F9D09F;
+  font-size: 0.8em;
+}
+
+.arrow_style {
+  text-align: center;
+  color : #F9D09F;
+  font-size: 0.8em;
+}
+
+.custom-container {
+  border: 1px solid #F9D09F;  /* Change this to your desired border color */
+  border-radius: 10px;         /* Optional: Rounded corners */
+  padding: 10px;               /* Padding inside the container */
+}
+
+svg{
+  width: 0;
+  height: 0;
+}
+
+/* Navbar container */
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+  }
+
+/* Navbar links */
+.navbar a {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 20px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Change color on hover */
+.navbar a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Add padding to the page content to prevent overlap */
+.content {
+  padding-top: 60px;
+}

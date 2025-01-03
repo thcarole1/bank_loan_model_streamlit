@@ -29,37 +29,14 @@ The next step is to choose a performance measure: <br>
 
 We will compute : <br>
     - the F1 score : <br><br>
-    $$F_1  = \frac{2}{\frac{1}{precision}+ \frac{1}{recall}} = 2 \times \frac{precision \times recall}{precision + recall} = \frac{TP}{TP +  \frac{FN + FP}{2}} $$
+    $$F_1  = \frac{2}{\frac{1}{precision}+ \frac{1}{recall}} = 2 \times \frac{precision \times recall}{precision + recall} = \frac{TP}{TP +  \frac{FN + FP}{2}} $$ <br><br>
 
+    - the recall : <br><br>
+      $$recall  = \frac{TP}{TP + FN}$$<br>
 
-st.latex(r'''
-            F_1  = \frac{2}{\frac{1}{precision}+ \frac{1}{recall}}
-            = 2 \times \frac{precision \times recall}{precision + recall}
-            = \frac{TP}{TP +  \frac{FN + FP}{2}}
-         ''')
+    - the precision : <br><br>
+      $$precision  = \frac{TP}{TP + FP}$$<br><br>
 
-st.markdown(
-    """ - the recall : """,
-    unsafe_allow_html=True
-)
+with **TP** : True Positives and **FN** : False Negatives<br><br>
 
-st.latex(r'''
-        recall  = \frac{TP}{TP + FN}
-         ''')
-
-st.markdown(
-    """ - the precision : """,
-    unsafe_allow_html=True
-)
-st.latex(r'''
-        precision  = \frac{TP}{TP + FP}
-         ''')
-
-st.markdown(
-    """ with **TP** : True Positives and **FN** : False Negatives""",
-    unsafe_allow_html=True
-)
-st.markdown(
-    """ <h1> Let's go ! </h1>""",
-    unsafe_allow_html=True
-)
+# Let's go !

@@ -27,12 +27,14 @@ The next step is to choose a performance measure: <br>
 - **Recall** may be favored if the goal is **to minimize false negatives**, <br>
 - or **F1-score** to **balance precision and recall**.<br><br>
 
+We will compute : <br>
+    - the F1 score
 
-st.markdown(
-    """ We will compute : <br>
-    - the F1 score : """,
-    unsafe_allow_html=True
-)
+F_1  = \frac{2}{\frac{1}{precision}+ \frac{1}{recall}}
+            = 2 \times \frac{precision \times recall}{precision + recall}
+            = \frac{TP}{TP +  \frac{FN + FP}{2}}
+
+
 st.latex(r'''
             F_1  = \frac{2}{\frac{1}{precision}+ \frac{1}{recall}}
             = 2 \times \frac{precision \times recall}{precision + recall}

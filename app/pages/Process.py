@@ -28,11 +28,11 @@ st.markdown(
     unsafe_allow_html=True
 )
 
-from pathlib import Path
-file_path = Path("data/piechart_Personal_Loan.png").resolve()
-st.write(f"Resolved path: {file_path}")
-st.image(file_path, caption="Target (i.e Personal_Loan) imbalance", output_format='PNG')
-# st.image("data/piechart_Personal_Loan.png", caption="Target (i.e Personal_Loan) imbalance", output_format='PNG')
+# from pathlib import Path
+# file_path = Path("data/piechart_Personal_Loan.png").resolve()
+# st.write(f"Resolved path: {file_path}")
+# st.image(file_path, caption="Target (i.e Personal_Loan) imbalance", output_format='PNG')
+st.image("data/piechart_Personal_Loan.png", caption="Target (i.e Personal_Loan) imbalance", output_format='PNG')
 
 st.markdown(
 """
